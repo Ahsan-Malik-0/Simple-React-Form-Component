@@ -131,7 +131,7 @@ export default function ExportForm() {
                         checked={formData.agree}
                         onChange={handleChange}
                     />
-                    <span className="checkbox-text">I agree to terms and conditions</span>
+                    <span className="checkbox-text">I agree to terms and conditions!</span>
                 </label>
                 <br />
 

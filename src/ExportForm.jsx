@@ -135,7 +135,7 @@ export default function ExportForm() {
                 </label>
                 <br />
 
-                <button type="submit">Submit</button>
+                <button type="submit">{editIndex === null ? "Submit" : "Update"}</button>
             </form>
 
             {

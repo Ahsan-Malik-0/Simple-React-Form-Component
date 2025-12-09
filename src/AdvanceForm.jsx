@@ -115,19 +115,19 @@ function AdvanceForm() {
                 formRecord.length === 0 ? (
                     <h2>No data found</h2>
                 ) : (
-                    <ul>
+                    <>
                         {formRecord.map((item, index) => (
-                            <div key={index}>
+                            <ul key={index}>
                                 <h3>Record : {index + 1}</h3>
                                 <li>Name: {item.name}</li>
                                 <li>Age: {item.age}</li>
                                 <li>Gender: {item.gender}</li>
                                 <li>City: {item.city}</li>
-                                <li>Agree: {item.agree ? "Yes" : "No"}</li>
+                                <li>Agree: {item.agree && "Yes"}</li>
                                 <hr />
-                            </div>
+                            </ul>
                         ))}
-                    </ul>
+                    </>
                 )
             }
         </>

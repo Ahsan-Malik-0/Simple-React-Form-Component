@@ -5,6 +5,7 @@ import Welcome from './Welcome'
 import BasicForm from './BasicForm';
 import ModerateForm from './ModerateForm';
 import AdvanceForm from './AdvanceForm';
+import ExportForm from './ExportForm'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     // <Welcome name="Form"/>
     // <BasicForm />
     // <ModerateForm />
-    <AdvanceForm />
+    // <AdvanceForm />
+    <ExportForm />
   );
 }
 
